@@ -11,9 +11,9 @@ streamlit.text(' 🥑🍞 Avacado Toast')
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
 import pandas
-
+#reading a CSV file from the aws bucket by using a pandas
 fruit_list = pandas.read_csv('https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt')
-
+# set a Fruit column as index
 fruit_list = fruit_list.set_index('Fruit')
 
 # here I put pick list so they can pick the fruit they want
