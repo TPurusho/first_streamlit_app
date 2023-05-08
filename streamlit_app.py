@@ -7,7 +7,7 @@ streamlit.text(' 🥣 Omega 3 & Blueberry Oatmeal')
 streamlit.text(' 🥗 Kale, Spinach & Rocket Smoothie')
 streamlit.text(' 🐔 Hot-boiled Free-Range Egg')
 streamlit.text(' 🥑🍞 Avacado Toast')
-
+streamlit.markdown('Market')
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
 import pandas
