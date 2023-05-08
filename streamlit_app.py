@@ -1,2 +1,3 @@
+import streamlit
 
-print("hello")
+streamlit.title('Chennai super kings')
